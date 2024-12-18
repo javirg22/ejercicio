@@ -1,0 +1,27 @@
+/rest-api
+├── /api
+│   ├── index.php        (Punto de entrada)
+│   ├── User.php         (Clase de lógica)
+│   ├── Database.php     (Clase para conexión con MySQL)
+└── .env                 (Opcional: Configuración del entorno)
+
+Pruebas:
+1.-Inicia el servidor de PHP desde Visual Studio Code:
+
+Abre el terminal en la carpeta rest-api y ejecuta: php -S localhost:8000 -t api
+
+2.-Prueba con el Visual Studio Code con la extension REST Client
+También puedes probar con Postman o curl
+GET (Obtener usuarios):
+
+curl -X GET http://localhost:8000
+POST (Crear usuario):
+
+curl -X POST -H "Content-Type: application/json" \
+-d '{"name": "John Doe", "email": "johndoe@example.com"}' \
+http://localhost:8000
+
+curl -X DELETE -H "Content-Type: application/json" \
+-d '{"id": 1}' \
+http://localhost:8000
+

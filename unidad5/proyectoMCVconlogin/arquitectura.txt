@@ -1,0 +1,15 @@
+/proyecto-mvc
+│
+├── index.php                 // Punto de entrada de la aplicación
+├── config.php                // Configuración de conexión a la base de datos
+├── style.css                 // Archivo CSS para estilos
+├── /models                   // Directorio de modelos
+│   └── Usuario.php           // Modelo Usuario
+│
+├── /views                    // Directorio de vistas
+│   ├── loginView.php         // Vista para el login
+│   ├── registroView.php      // Vista para el registro
+│   └── usuarioListView.php   // Vista para listar usuarios
+│
+└── /controllers              // Directorio de controladores
+    └── UsuarioController.php // Controlador de usuarios

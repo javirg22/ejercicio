@@ -1,0 +1,22 @@
+### Prueba de la API: Enviar un correo electrónico
+
+# Solicitud exitosa (todos los campos requeridos proporcionados)
+POST http://127.0.0.1:8001/sendEmail.php
+Content-Type: application/json
+
+{
+  "to": "javiretuerta2004@gmail.com",
+  "subject": "Prueba de correo desde la API",
+  "message": "Hola, este es un mensaje de prueba enviado desde la API RESTful."
+}
+
+### Prueba de error: Campos faltantes
+POST http://127.0.0.1:8001/sendEmail.php
+Content-Type: application/json
+
+{
+  "to": "javiretuerta2004@gmail.com"
+}
+
+### Prueba de error: Método no permitido
+GET http://127.0.0.1:8000/sendEmail.php

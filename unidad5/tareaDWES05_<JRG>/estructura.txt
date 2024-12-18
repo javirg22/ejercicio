@@ -1,0 +1,19 @@
+/Tareas/
+├── /css/
+│   └── styles.css
+├── /controllers/
+│   ├── userController.php
+│   └── taskController.php
+├── /models/
+│   ├── user.php
+│   └── task.php
+├── /views/
+│   ├── login.php
+│   ├── register.php
+│   ├── task_list.php
+│   ├── task_form.php
+│   
+├── /config/
+│   └── database.php
+├── index.php
+└── README.md

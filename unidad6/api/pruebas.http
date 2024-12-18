@@ -1,0 +1,29 @@
+##Consultar todos los usuarios
+GET http://localhost:8001/
+
+###Insertar un usuario
+POST http://localhost:8001/
+Content-Type: application/json
+
+{
+"name": "Isabel",
+ "email": "isabel@example.com"
+}
+
+###Insertar un usuario
+POST http://localhost:8001/
+Content-Type: application/json
+
+{
+"name": "juan",
+ "email": "juan@example.com"
+}
+
+###Insertar un usuario
+POST http://localhost:8001/
+Content-Type: application/json
+
+{
+"name": "sara",
+ "email": "sara@example.com"
+}

@@ -1,0 +1,19 @@
+/biblioteca/
+├── /css/
+│   └── styles.css
+├── /controllers/
+│   ├── UserController.php
+│   └── BookController.php
+├── /models/
+│   ├── User.php
+│   └── Book.php
+├── /views/
+│   ├── login.php
+│   ├── register.php
+│   ├── book_list.php
+│   ├── book_form.php
+│   
+├── /config/
+│   └── database.php
+├── index.php
+└── README.md

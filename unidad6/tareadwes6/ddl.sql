@@ -1,0 +1,14 @@
+CREATE DATABASE jrg;
+
+USE jrg;
+
+CREATE TABLE books (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    genre VARCHAR(100),
+    published_year INT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+CREATE USER jrg IDENTIFIED BY "jrg ";
+GRANT ALL ON jrg.* TO jrg;

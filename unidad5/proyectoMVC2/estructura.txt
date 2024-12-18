@@ -1,0 +1,12 @@
+proyecto-mvc
+├── index.php               # Punto de entrada
+├── config.php              # Configuración de la base de datos
+├── controllers/
+│   └── LibroController.php
+├── models/
+│   ├── Libro.php
+│   └── Autor.php
+├── views/
+│   ├── libroListView.php
+│   └── libroFormView.php
+└── style.css               # Estilos opcionales

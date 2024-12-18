@@ -1,0 +1,18 @@
+### Solicitud para calcular el total de productos..arrancar el servidor con php -S localhost:8001
+POST http://localhost:8001/procesar_productos.php
+Content-Type: application/json
+
+[
+    {"id": 1, "nombre": "Laptop", "precio": 1200},
+    {"id": 2, "nombre": "Mouse", "precio": 20},
+    {"id": 3, "nombre": "Teclado", "precio": 35}
+]
+
+### Prueba con datos incorrectos
+POST http://localhost:8001/procesar_productos.php
+Content-Type: application/json
+
+{
+    "id": 1,
+    "nombre": "Laptop"
+}
